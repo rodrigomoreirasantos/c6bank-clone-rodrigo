@@ -102,6 +102,9 @@ header{
     @include responsive (810px){
         .container{
             nav{
+                width: 100%;
+                max-width: 41.4rem;
+                margin-left: 7.5rem;
                 ul{
                     display: none;
                 }

@@ -198,6 +198,7 @@
             .right-infos{
                 margin-top: 8rem;
                 h3{
+                    text-align: center;
                     margin-bottom: 0rem;
                 }
                 .all-plans{
@@ -368,6 +369,7 @@
             .top-business{
                 @include flex (column,center, space-between);
                 padding-top: 6.9rem;
+                margin-left: 0;
                 .text-business{
                     text-align: center;
                     margin-bottom: 4rem;
@@ -378,22 +380,39 @@
                         font-size: 2.4rem;
                     }
                 }
+                .buttons-business{
+                    width: 100%;
+                    max-width: 38.2rem;
+                    .business-for-you{
+                        width: 17.1rem
+                    }
+                    .business-for-enterprise{
+                        width: 15.3rem;
+                    }
+                }
             }
             .bottom-business{
                 @include flex (column,center,center);
                 height: 63.2rem;
-                width: 90%;
+                margin-left: 0;
+                width: 100%;
+                max-width: 36.6rem;
                 .bottom-business-left{
                     margin-top: 6.4rem;
+                    margin-left: 0;
                     h2{
                         text-align: center;
                         width: 100%;
                     }
                     p{
                         text-align: center;
+                        width: 100%;
+                        max-width: 30.7rem;
+                        margin-left: 2rem;
                     }
                     .icon{
                         justify-content: center;
+                        margin-bottom: 3.6rem;
                     }
                 }
                 .bottom-business-right{
