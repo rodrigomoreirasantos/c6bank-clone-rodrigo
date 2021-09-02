@@ -1,0 +1,22 @@
+.btn-primary{
+    background-color: $yellow-brand;
+    color: $black-brand;
+    border-radius: 10rem;
+    width: 243px;
+    height: 40px;
+    transition: all .3s;
+    &:hover{
+        background-color: $dark-yellow-brand;
+    }
+}
+
+.btn-secondary{
+    background-color: $black-brand;
+    color: #FFFFFF;
+    border-radius: 12rem;
+    transition: all .3s;
+    &:hover{
+        color: $black-brand;
+        background-color: #FFFFFF;
+    }
+}
